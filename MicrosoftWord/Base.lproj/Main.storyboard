@@ -49,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1038.5" y="439.5"/>
+            <point key="canvasLocation" x="809.5" y="438.5"/>
         </scene>
         <!--Passing Options-->
         <scene sceneID="IIz-za-jx3">
@@ -215,11 +215,12 @@
                         <outlet property="currentColor" destination="XMl-QZ-mxR" id="ZL8-U1-IcV"/>
                         <outlet property="currentFontName" destination="kyp-2S-9fZ" id="f0g-hc-RFA"/>
                         <outlet property="currentSize" destination="11W-86-xTL" id="jji-IM-Oeg"/>
+                        <outlet property="currentStyle" destination="GqJ-Qk-X8E" id="hFO-aA-Elf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OM4-nf-XEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1488.5" y="438.5"/>
+            <point key="canvasLocation" x="1281.5" y="438.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eFU-Rb-O4a">

@@ -23,6 +23,9 @@ class PassingOptions: UIViewController {
     
     @IBOutlet weak var currentAlign: UILabel!
     
+    @IBOutlet weak var currentStyle: UILabel!
+    
+    
     var delegate: OptionDelegate! = nil
     var colorLabelText: String! = nil
     var option: OptionFont!
@@ -93,6 +96,18 @@ class PassingOptions: UIViewController {
         
         NSNotificationCenter.defaultCenter().postNotificationName("Style", object: nil, userInfo: dic as [NSObject : AnyObject])
         
+        var style = ""
+        switch sender.tag {
+        case 200:
+            style = "B"
+        case 201:
+            style = "I"
+        case 202:
+            style = "U"
+        default:
+            break;
+        }
+        currentStyle.text = style
     }
     
     
